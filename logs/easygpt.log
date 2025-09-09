@@ -1,0 +1,47 @@
+2025-09-02 15:25:14,259 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 15:25:14,267 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-02 15:25:14,267 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 15:31:10,141 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 15:31:10,144 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-02 15:31:10,146 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 15:31:18,351 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 15:31:18,351 | INFO | easygpt | generate: provider=ProviderEnum.openai model=None temp=0.2
+2025-09-02 15:31:25,169 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 15:31:25,186 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 16:09:37,572 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 16:09:37,573 | INFO | easygpt | generate: provider=ProviderEnum.openai model=None temp=0.2
+2025-09-02 16:09:46,247 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 16:09:46,248 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 16:25:56,586 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 16:25:56,586 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-02 16:25:56,586 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 16:25:59,717 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 16:25:59,719 | INFO | easygpt | generate: provider=ProviderEnum.openai model=None temp=0.2
+2025-09-02 16:26:10,032 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 16:26:10,043 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-02 16:26:39,518 | INFO | easygpt | HTTP POST /v1/followup
+2025-09-02 16:26:39,525 | INFO | easygpt | followup: provider=ProviderEnum.openai model=None
+2025-09-02 16:26:44,268 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 16:26:44,274 | INFO | easygpt | HTTP POST /v1/followup -> 200
+2025-09-02 16:30:50,907 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-02 16:30:50,909 | INFO | easygpt | generate: provider=ProviderEnum.openai model=None temp=0.2
+2025-09-02 16:31:01,013 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 16:31:01,015 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:16:26,930 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:16:26,930 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:16:26,938 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:42:48,577 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:42:48,578 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:42:48,578 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:52:54,999 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:52:55,000 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:52:55,002 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:55:51,439 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:55:51,442 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:55:51,442 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:57:11,805 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:57:11,806 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:57:11,808 | INFO | easygpt | HTTP POST /v1/generate -> 200
+2025-09-03 00:59:20,986 | INFO | easygpt | HTTP POST /v1/generate
+2025-09-03 00:59:20,986 | INFO | easygpt | generate: provider=ProviderEnum.mock model=None temp=0.2
+2025-09-03 00:59:20,990 | INFO | easygpt | HTTP POST /v1/generate -> 200

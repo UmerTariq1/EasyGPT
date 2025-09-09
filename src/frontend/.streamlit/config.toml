@@ -1,0 +1,12 @@
+[theme]
+base="dark"
+primaryColor="#5BC0F8"             # Sky Blue
+backgroundColor="#1D263B"          # Dark Blue-Gray
+secondaryBackgroundColor="#2C364C" # Slightly lighter dark gray for cards/inputs
+textColor="#EAEAEA"                # Light Gray
+font="sans serif"
+
+# Sidebar specific
+[theme.sidebar]
+backgroundColor="#2C364C"          # Same as secondaryBackgroundColor for a cohesive look
+textColor="#EAEAEA"

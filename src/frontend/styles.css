@@ -1,0 +1,99 @@
+/* Sticky header styles */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: transparent;
+    border-bottom: 1px solid #1D263B;
+    text-align: left;
+    margin-top: -1rem;  /* Pull the header up to remove the gap */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sticky-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sticky-header p {
+    font-size: 1.2rem;
+    /* margin: 0.5rem 0 0 0; */
+    color: #9BA4B5;
+}
+
+/* Make the main card container stand out */
+div[data-testid="stContainer"]:has(h3) {
+    border-radius: 0.75rem;
+    border: 1px solid #1D263B;
+    background-color: #2C364C;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* a darker shadow for depth */
+    padding: 1.5rem !important;
+}
+
+/* Improve button visibility and spacing */
+div[data-testid="stButton"] button {
+    background-color: #3A97CC; /* Darker blue */
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+div[data-testid="stButton"] button:hover {
+    background-color: #4BACDE; /* Slightly lighter on hover but still dark */
+    color: #FFFFFF;
+}
+
+/* Subtle border styling for bordered containers (assistant responses) */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-color: #0d5df1 !important;
+    border-radius: 1rem 1rem 1rem 0;  /* Rounded corners except bottom left */
+    position: relative;
+    margin-left: 12px;  /* Space for the tail */
+}
+
+
+/* Remove background from Streamlit's chat message container */
+.st-emotion-cache-1mph9ef {
+    background-color: transparent !important;
+}
+
+/* Right-aligned, content-width user bubble */
+.easygpt-user-wrap {
+    text-align: right;
+    background: transparent;
+    margin-right: 1rem;
+}
+
+.easygpt-user-bubble {
+    display: inline-block;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem 1rem 0 1rem;  /* Rounded corners except bottom right */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin-right: 12px;  /* Space for the tail */
+}
+
+/* Create the chat bubble tail */
+.easygpt-user-bubble::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 10px;
+    height: 19px;
+    background: transparent;
+    border-right: 2px solid rgba(218, 8, 8, 0.934);
+    border-bottom: 2px solid rgba(218, 8, 8, 0.934);
+    border-bottom-left-radius: 10px;
+    transform: skew(35deg, 0);
+}
+
+/* Move user emoji to the right */
+div[data-testid="stChatMessage"]:has(.easygpt-user-wrap) {
+    flex-direction: row-reverse;
+}
