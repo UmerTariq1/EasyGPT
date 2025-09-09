@@ -1,5 +1,6 @@
-[![Technical Architecture](https://img.shields.io/badge/Technical_Architecture-Read-0A66C2?style=for-the-badge)](docs//technical%20architecture.md)
 [![Product Details](https://img.shields.io/badge/Product_Details-Read-4CAF50?style=for-the-badge)](docs//product_details.md)
+
+[![Technical Architecture](https://img.shields.io/badge/Technical_Architecture-Read-0A66C2?style=for-the-badge)](docs//technical%20architecture.md)
 
 # EasyGPT
 
