@@ -1,9 +1,9 @@
-EasyGPT
+# EasyGPT
 
-### What is EasyGPT?
+## What is EasyGPT?
 EasyGPT is a clean, step‑by‑step AI assistant. Instead of wall‑of‑text answers, it breaks tasks into simple, navigable cards you can move through with Next/Back and ask focused follow‑up questions.
 
-### Why it’s different
+## Why it’s different
 - **Card-based guidance**: Clear steps instead of long paragraphs
 - **Focused follow-ups**: Ask questions about the current step in context
 - **Provider-agnostic**: Works with multiple LLM providers (mock/OpenAI/Gemini/DeepSeek via config)
