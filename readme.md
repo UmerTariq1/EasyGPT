@@ -1,3 +1,6 @@
+[![Technical Architecture](https://img.shields.io/badge/Technical_Architecture-Read-0A66C2?style=for-the-badge)](technical_architecture.txt)
+[![Product Details](https://img.shields.io/badge/Product_Details-Read-4CAF50?style=for-the-badge)](product_details.txt)
+
 # EasyGPT
 
 ## What is EasyGPT?
