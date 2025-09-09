@@ -1,5 +1,5 @@
-[![Technical Architecture](https://img.shields.io/badge/Technical_Architecture-Read-0A66C2?style=for-the-badge)](technical_architecture.txt)
-[![Product Details](https://img.shields.io/badge/Product_Details-Read-4CAF50?style=for-the-badge)](product_details.txt)
+[![Technical Architecture](https://img.shields.io/badge/Technical_Architecture-Read-0A66C2?style=for-the-badge)](docs//technical%20architecture.md)
+[![Product Details](https://img.shields.io/badge/Product_Details-Read-4CAF50?style=for-the-badge)](docs//product_details.md)
 
 # EasyGPT
 
@@ -31,13 +31,15 @@ EasyGPT is a clean, step‑by‑step AI assistant. Instead of wall‑of‑text a
 ```bash
 # Backend
 python -m venv .venv-backend
-. .venv-backend/Scripts/Activate.ps1   # PowerShell on Windows
+.venv-backend\Scripts\activate.bat # cmd on windows
+# . .venv-backend/Scripts/Activate.ps1   # PowerShell on Windows
 # source .venv-backend/bin/activate    # macOS/Linux
 pip install -r src/backend/requirements.txt
 
 # Frontend
 python -m venv .venv-frontend
-. .venv-frontend/Scripts/Activate.ps1  # PowerShell on Windows
+.venv-frontend\Scripts\activate.bat # cmd on windows
+# . .venv-frontend/Scripts/Activate.ps1  # PowerShell on Windows
 # source .venv-frontend/bin/activate   # macOS/Linux
 pip install -r src/frontend/requirements.txt
 ```
