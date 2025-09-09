@@ -125,5 +125,3 @@ src/
     streamlit_app.py, frontend_service.py, config.yaml, styles.css, requirements.txt
 ```
 
-## License
-MIT (or your preferred license)
